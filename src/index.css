@@ -1,13 +1,42 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  width: 100%;
+  background-color: aqua;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.row {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.label span {
+  margin-right: 10px;
+}
+
+.label {
+  margin: 10px;
+}
+
+.label .add_contact {
+  padding: 5px 10px;
+  background-color: #ff0ff8;
+  color: #000;
+  border: none;
+  cursor: pointer;
 }
